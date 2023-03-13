@@ -8,7 +8,7 @@
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    gap: 450px
+    gap: 400px
    
 }
 
@@ -73,6 +73,8 @@ h4 {
     padding-left: 20px;
     font-size: 15px;
     border: none;
+    padding-bottom: 5px;
+    padding-top: 3px
 }
 
 .hero {
@@ -85,10 +87,150 @@ h4 {
 }
 
 .hero-img {
-    height: 200px;
-    width: 500px;
+    height: 150px;
+    width: 450px;
     display: flex;
     margin-left: 30px;
     margin-top: 50px;
+}
+
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
+.imgone {
+    display: flex;
+    max-width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.imgtwo {
+    max-width: 150px;
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.imgthree {
+    display: flex;
+    max-width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px; 
+}
+
+.imgfour {
+    display: flex;
+    max-width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.imgtxt-one {
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+}
+
+.imgtxt-two {
+    display: flex;
+    max-width: 100px;
+}
+
+.imgtxt-three {
+    display: flex;
+    max-width: 100px;
+}
+
+.imgtxt-four {
+    display: flex;
+    max-width: 100px;
+}
+
+.subtxt {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 550px;
+    padding-top: 75px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    
+}
+
+.quote-author {
+    display: flex;
+    margin-left: 250px;
+    padding-bottom: 75px;
+}
+
+.adtext {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 100px;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.adpara {
+    display: flex;
+    margin-left: -265px;
+}
+
+.adbtn {
+    display: flex;
+    margin-left: auto;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bolder;
+}
+
+.adheader {
+    margin-top: -20px;
 }
 
